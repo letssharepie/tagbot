@@ -25,7 +25,7 @@ client.on('ready', () => {
 
         var randomNum = Math.floor(Math.random() * images.length);
         const attachment = new MessageAttachment(directoryMsg+images[randomNum]);
-        // tagbotimg/laussen/laussen22
+        // tagbotimg/name/name22
          
         msg.channel.send(attachment);
       }
